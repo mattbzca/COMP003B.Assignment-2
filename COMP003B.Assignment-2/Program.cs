@@ -3,7 +3,6 @@
  * Course: COMP-003B: ASP.NET Core
  * Faculty name: Jonathan Cruz
  * Purpose: This is my ASP.NET Core MVC web application.
- * 
  */
 
 namespace COMP003B.Assignment_2
