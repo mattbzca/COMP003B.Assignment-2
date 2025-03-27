@@ -1,10 +1,10 @@
 ﻿namespace COMP003B.Assignment_2.Middleware
 {
-    public class RequestLoggingMiddleware
+    public class RequestTrackingMiddleware
     {
         private readonly RequestDelegate _next;
 
-        public RequestLoggingMiddleware(RequestDelegate next)
+        public RequestTrackingMiddleware(RequestDelegate next)
         {
             _next = next;
         }

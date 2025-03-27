@@ -30,9 +30,9 @@ namespace COMP003B.Assignment_2
 
             app.UseStaticFiles();
 
-            app.UseMiddleware<COMP003B.Assignment_2.Middleware.RequestLoggingMiddleware>();
-
             app.UseWelcomePage("/welcome");
+
+            app.UseMiddleware<COMP003B.Assignment_2.Middleware.RequestTrackingMiddleware>();
 
             app.UseRouting();
 
